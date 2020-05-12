@@ -28,8 +28,8 @@ logging.basicConfig(format='%(asctime)s [%(levelname)s] %(message)s', level=logg
 # AWS_SECRET_KEY = os.environ.get("SECRET_ACCESS_KEY_ID")
 
 BUCKET = 'dev-hgadhiya-csye7374-image-upload'
-AWS_ACCESS_KEY = 'AKIAUJWRCG77QYGIF35U'
-AWS_SECRET_KEY = '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'
+AWS_ACCESS_KEY = ''
+AWS_SECRET_KEY = ''
 
 CACHE_TTL = getattr(settings, 'CACHE_TTL', DEFAULT_TIMEOUT)
 # conn = False
